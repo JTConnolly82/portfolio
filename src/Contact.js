@@ -31,7 +31,7 @@ const Contact = () => {
         <div className='contact-wrap'>
         <form action="/contact" className='contact-form' name="contact-form" method="post" >
 
-          <input type="hidden" name="contact form" />
+          <input type="hidden" name="contact-form" value='contact-form' />
             <p className='input-label'>
               <input type="text" name="name" placeholder='name' />   
             </p>
