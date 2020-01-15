@@ -1,18 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './styles.css';
 import {Link} from 'react-router-dom';
-// import MobileLayout from './MobileLayout';
 
 
 
 const Contact = () => {
 
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(()=> {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-  })
 
   return (
     <div style={{justifySelf: 'center'}}>
@@ -36,18 +29,18 @@ const Contact = () => {
         </h3>
       </div>
         <div className='contact-wrap'>
-        <form className='contact-form' name="contact" action="/" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className='contact-form' name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="bot-field" />  
 
           <input type="hidden" name="form-name" value="contact" />
             <p className='input-label'>
-              <input type="text" name="name" id='name' placeholder='name' />   
+              <input type="text" name="name" placeholder='name' />   
             </p>
             <p className='input-label'>
-              <input type="email" name="email" id='email' placeholder='example@email.com'/>
+              <input type="email" name="email" placeholder='example@email.com'/>
             </p>
             <p className='input-label'>
-              <textarea type="text" name="message" id='message' style={{width: 'inherit'}} placeholder='message' />
+              <textarea type="text" name="message" style={{width: 'inherit'}} placeholder='message' />
             </p>
             <p className='input-label'>
               <button name='submit' type="submit" id='contact-btn'>Send</button>
