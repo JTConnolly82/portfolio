@@ -29,7 +29,7 @@ const Contact = () => {
         </h3>
       </div>
         <div className='contact-wrap'>
-        <form className='contact-form' name="contact-form" method="post" >
+        <form action="/contact" className='contact-form' name="contact-form" method="post" >
 
           <input type="hidden" name="contact form" />
             <p className='input-label'>
