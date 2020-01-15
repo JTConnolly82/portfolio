@@ -154,16 +154,18 @@ box-shadow: 0 1px 1px rgba(101, 101, 101,0.19),
 
 @media only screen and (max-width: 570px) {
   
-  .nav-container {
+  /* .nav-container {
+    align-items: center;
     justify-content: center;
   }
   .inner-nav {
+    align-items: center;
     justify-content: center;
-  }
+  } */
   .nav-links {
     align-items: center;
     justify-content: center;
-    margin-right: 0%;
+    margin: 0 auto;
   }
 }
 
