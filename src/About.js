@@ -7,20 +7,13 @@ import MobileLayout from './MobileLayout';
 
 const About = () => {
 
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(()=> {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-  })
-
   return (
     <div style={{justifySelf: 'center'}}>
     <div className='large-main-div' id='about-main-wrapper'>
       <div className='home-link-div'>
         <Link to='/'><img src="https://img.icons8.com/small/31/000000/home.png" /></Link>
       </div>
-      <div style={{display: 'flex', flexDirection: 'column', height: '65vh' }}>
+      <div style={{display: 'flex', flexDirection: 'column'}}>
       <div className='page-title'>
           <h1>About</h1>
       </div>

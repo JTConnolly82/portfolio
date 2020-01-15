@@ -661,6 +661,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 
 .about-buttons {
   align-self: center;
+  margin-top: 25px;
 }
 
 @media only screen and (max-width: 1033px) {
@@ -678,17 +679,12 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   .pic-border {
     margin-bottom: 20px;
   }
-  .about-buttons {
-    margin-top: 120px;
-  }
+  
 }
 
 @media only screen and (max-width: 753px) {
   .about-main {
     height: 130%;
-  }
-  .about-buttons {
-    margin-top: 200px;
   }
 }
 
@@ -699,22 +695,16 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   #about-main-wrapper {
     height: 110%;
   }
-  .about-buttons {
-    margin-top: 300px;
-  }
 }
 
 @media only screen and (max-width: 425px) {
   .about-main {
-    height: 190%;
+    /* height: 190%; */
     width: 95%;
     padding: 5px;
   }
   #about-main-wrapper {
     height: 105%;
     padding: 10px;
-  }
-  .about-buttons {
-    margin-top: 500px;
   }
 }
