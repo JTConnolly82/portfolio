@@ -530,6 +530,10 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   font-size: 15px;
 }
 
+#form-textarea {
+  width: inherit;
+}
+
 .contact-form textarea {
   outline: none;  
   border: none;

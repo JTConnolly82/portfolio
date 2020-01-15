@@ -29,7 +29,7 @@ const Contact = () => {
         </h3>
       </div>
         <div className='contact-wrap'>
-        <form className='contact-form' name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field">
+        <form className='contact-form' name="contact" method="post" netlify data-netlify="true" netlify-honeypot="bot-field">
 
           <input type="hidden" name="form-name" value="contact form" />
             <p className='input-label'>
@@ -39,7 +39,7 @@ const Contact = () => {
               <input type="email" name="email" placeholder='example@email.com'/>
             </p>
             <p className='input-label'>
-              <textarea type="text" name="message" style={{width: 'inherit'}} placeholder='message' />
+              <textarea name="message" id='form-textarea' placeholder='message' />
             </p>
             <p className='input-label'>
               <button name='submit' type="submit" id='contact-btn'>Send</button>
