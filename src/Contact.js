@@ -9,11 +9,6 @@ const Contact = () => {
 
   return (
     <div style={{justifySelf: 'center'}}>
-    {/* {width < 438 ?  
-      <MobileLayout />
-    : */}
-     {/* if window is bigger than 438 px render this homepage
-     use diff styling etc  */}
     <div className='large-main-div' id='contact-outer-wrapper'>
       <div className='large-main-inner' id='contact-main' >
         <div className='home-link-div'>
@@ -23,14 +18,13 @@ const Contact = () => {
         <div className='page-title'>
           <h1>Contact</h1>
         </div>
-      <div style={{display: 'flex', justifyContent: 'center'}}>
+        <div id='contact-statement'>
         <h3>
           You can reach me at JTConnolly82@gmail.com or use the form below.
         </h3>
       </div>
         <div className='contact-wrap'>
         <form action="/contact" className='contact-form' name="contact-form" method="post" >
-
           <input type="hidden" name="form-name" value='contact-form' />
             <p className='input-label'>
               <input type="text" name="name" placeholder='name' />   
@@ -47,15 +41,13 @@ const Contact = () => {
         </form>
         </div>
         <div className='social-icons'>
-          <h3><img style={{width: '40px', height: '40px'}} src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-512.png" alt="twitter"/></h3>
-          <h3><img style={{width: '40px', height: '40px'}} src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/linkedin-512.png" alt="linkedin"/></h3>
-          <h3><img style={{width: '40px', height: '40px'}} src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github"/></h3>
+          <a href="https://twitter.com/HIIMJ0HN"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-512.png" alt="twitter"/></a>
+          <a href="https://www.linkedin.com/in/jtc/"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/linkedin-512.png" alt="linkedin"/></a>
+          <a href="https://github.com/JTConnolly82"><img className='icon' src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github"/></a>
         </div>
       </div>
     </div>
-    {/* } */}
-
-    </div>
+  </div>
   )
 }
 

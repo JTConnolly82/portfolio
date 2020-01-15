@@ -46,8 +46,8 @@ const About = () => {
         </div>
       </div>
       <div className='about-buttons'>
-            <button className='the-buttons-home' id='project-button'><Link to='/projects'>Resume</Link></button>
-            <button className='the-buttons-home' id='about-button'><Link to='/about'>Github</Link></button>
+            <button className='the-buttons-home'>Resume</button>
+            <a href="https://github.com/JTConnolly82"><button className='the-buttons-home'>Github</button></a>
       </div>
     </div>
     {/* } */}

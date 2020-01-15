@@ -22,7 +22,7 @@ const LargeHome = () => {
           </div> */}
           <div className='home-buttons'>
             <button className='the-buttons-home' id='project-button'><Link to='/projects'>Projects</Link></button>
-            <button className='the-buttons-home' id='about-button'><Link to='/about'>About</Link></button>
+            <button className='the-buttons-home' id='about-button-home'><Link to='/about'>About</Link></button>
             <button className='the-buttons-home' id='contact-button'><Link to='/contact'>Contact</Link></button>
           </div>
         </div>

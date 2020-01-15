@@ -19,6 +19,7 @@ body {
 
 a {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .large-main-div {
@@ -341,7 +342,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 
 
 
-#about-button {
+#about-button-home {
   margin-left: 22px;
   margin-right: 22px;
 }
@@ -479,7 +480,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 
 .contact-wrap {
   margin: 0 auto;
-  margin-top: 65px;
+  margin-top: 45px;
   margin-bottom: 50px;
   padding: 12px;
   display: flex;
@@ -510,20 +511,27 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
           0 32px 64px rgba(0,0,0,0.07);
 }
 
+#contact-statement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 15px;
   width: 35vw;
   height: 31vh;
   background-color: #ffffff;
+  justify-content: space-around;
 }
 
 .contact-form input {
   outline: none;  
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(68, 68, 68);;
   /* height: 100px; */
   padding: 4px;
   margin-top: 10px;
@@ -532,12 +540,13 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 
 #form-textarea {
   width: inherit;
+  border-radius: 4px;
 }
 
 .contact-form textarea {
   outline: none;  
   border: none;
-  border: 2px solid black;
+  border: 2px solid rgb(68, 68, 68);
   border-radius: 5px;
   height: 80px;
   margin-top: 10px;
@@ -552,15 +561,35 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 }
 
 #contact-btn {
-  width: 100px;
-  height: 40px;
-  font-size: 20px;
-  border-radius: 9px;
-  border: none;
-  background-color: #ffffff;
-  border: 2px solid black;
   margin-top: 9px;
+  padding: 11px;
+  background: linear-gradient(to right, #aaaaaa 0%, #b6b6b6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
+  border-radius: 6px;
+  -webkit-box-shadow: 
+  0 2px 2px rgba(101, 101, 101,0.16), 
+  0 4px 4px rgba(101, 101, 101,0.13), 
+  0 8px 8px rgba(101, 101, 101,0.10);
+box-shadow:  
+0 2px 2px rgba(101, 101, 101,0.16), 
+0 4px 4px rgba(101, 101, 101,0.13), 
+0 8px 8px rgba(101, 101, 101,0.10);
+width: 100px;
+font-size: 15px;
+border: none;
+cursor: pointer;
 }
+#contact-btn:hover {
+ 
+-webkit-box-shadow: 0 7px 7px -5px rgba(50,50,93,.25),0 5px 9px -5px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+box-shadow: 0 6px 9px -3px rgba(50,50,93,.25),0 4px  8px -5px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+-webkit-box-shadow: 0 4px 7px rgba(50,50,93,.1),0 2px 3px rgba(0,0,0,.08);
+box-shadow: 0 7px 9px rgba(0,0,0,);
+}
+
 
 @media only screen and (max-width: 1060px) {
   .contact-wrap {
@@ -594,6 +623,13 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   width: 300px;
   margin: 0 auto;
   margin-top: 8px;
+  margin-bottom: 35px;
+}
+
+.icon {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
 }
 
 .about-main {
@@ -653,20 +689,13 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   width: 200px;
   height: 310px;
   opacity: .8;
-  /* -webkit-box-shadow: 0 1px 1px rgba(101, 101, 101,0.19), 
-  0 2px 2px rgba(101, 101, 101,0.16), 
-  0 4px 4px rgba(101, 101, 101,0.13), 
-  0 8px 8px rgba(101, 101, 101,0.10);
-  box-shadow: 0 1px 1px rgba(101, 101, 101,0.19), 
-  0 2px 2px rgba(101, 101, 101,0.16), 
-  0 4px 4px rgba(101, 101, 101,0.13), 
-  0 8px 8px rgba(101, 101, 101,0.10); */
 }
 
 .about-buttons {
   align-self: center;
   margin-top: 25px;
 }
+
 
 @media only screen and (max-width: 1033px) {
   .about-main {
@@ -695,6 +724,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 @media only screen and (max-width: 610px) {
   .about-main {
     height: 160%;
+    width: 95%;
   }
   #about-main-wrapper {
     height: 110%;
