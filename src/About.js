@@ -18,37 +18,35 @@ const About = () => {
           <h1>About</h1>
       </div>
         <div className='about-main'>
-            <div className='about-desc-wrap'>
-                <h2 style={{marginBottom: '25px', fontSize: '38px'}}>
-                  Hi I'm John
-                </h2>
-                <h3>
-                  I'm a developer living in Salt Lake City Utah.   
-                </h3>
-                <h3>
-                  This is essentially filler text until I can think of 
-                  something worth putting down on my website.
-                </h3>
-                <h3>
-                  Outside of work and side projects I enjoy getting out in Salt Lake's nearby mountains.
-                  This is essentially filler text until I can think of 
-                  something worth putting down on my website.
-                </h3>
-                <h3>
-                This is essentially filler text until I can think of 
-                  something worth putting down on my website.
-                  A copy of my resume can be found here.
-                </h3>
-            </div>
-          <div className='pic-border'>
+        <div className='pic-border'>
             <img id='about-pic' src="https://i.imgur.com/Y83S3eV.jpg" alt="me"/>
           </div>
+            <div className='about-desc-wrap'>
+              <h2 style={{fontSize: '38px', marginBottom: '10px'}}>
+                Hi I'm John,
+              </h2>
+              <h3>
+                I'm a developer with experience in frontend and backend.  I 
+                also enjoy designing UI's and growing my css skills.
+                Some of my favorite frameworks and tools 
+                are React, Node with Express JS, and Ruby on Rails.
+                
+              </h3>
+              <h3>
+                Prior to software development I worked at SolarCity and Tesla
+                where I was involved with solar and energy storage projects.
+              </h3>
+              <div className='about-buttons'>
+                <button className='btns-about' onClick={()=>{window.location.href='https://w3docs.com'}}>Resume</button>
+                <button className='btns-about' onClick={()=>{window.location.href='https://github.com/JTConnolly82'}}>Github</button>
+              </div>
+            </div>
         </div>
       </div>
-      <div className='about-buttons'>
-            <button className='the-buttons-home'>Resume</button>
-            <a href="https://github.com/JTConnolly82"><button className='the-buttons-home'>Github</button></a>
-      </div>
+      {/* <div className='about-buttons'>
+        <button className='btns-about' onClick={()=>{window.location.href='https://w3docs.com'}}>Resume</button>
+        <button className='btns-about' onClick={()=>{window.location.href='https://w3docs.com'}}>Github</button>
+      </div> */}
     </div>
     {/* } */}
       
