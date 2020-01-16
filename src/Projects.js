@@ -36,7 +36,7 @@ class Projects extends React.Component {
         <div id='projects-main' >
         <Slider className='slider' {...settings}>
           <div style={{width: '100%'}}>
-            <a href="">
+            <a href="https://apt-reviews-vs.herokuapp.com/">
             <div style={{
               backgroundImage: "url('https://i.imgur.com/xBx6tHb.png')",
               height: '58vh',
