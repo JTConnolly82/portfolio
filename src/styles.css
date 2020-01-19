@@ -443,12 +443,14 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
     bottom: 0;
     height: 15%;
     width: 100%;
-    background: rgba(48, 48, 48, 0.899);
-    color: #c9c9c9;
+    background: #e8e8e8;
+    color: #323232;
     display: flex;
     padding: 20px;
     align-items: center;
 }
+
+
 
 @media only screen and (max-width: 1090px) {
   .project-background-div {
@@ -629,6 +631,9 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
     height: 90%;
     align-items: center;
   }
+  #contact-statement {
+    padding: 5px;
+  }
 }
 
 
@@ -711,7 +716,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 
 
 .pic-border {
-  background-color: #ffffff;
+  background-color: hsla(0, 0%, 100%, 0.95);
   padding: 15px;
   border-radius: 10px;
   -webkit-box-shadow: 0 1px 1px rgba(101, 101, 101,0.19), 
@@ -817,3 +822,4 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
     padding: 10px;
   }
 }
+
