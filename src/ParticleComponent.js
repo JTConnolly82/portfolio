@@ -1,6 +1,8 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import all from './logoParticles.json'
+import "./styles.css";
+
 
 const particleVar = all
 
@@ -14,10 +16,11 @@ const ParticleComponent = () => {
       width: "100%",
       height: '100%',
       zIndex: '1',
+      
     }}
   >
-  <Particles params={particleVar} />
-</div>
+  <Particles className='home-particles' params={particleVar}/>
+  </div>
   )
 }
 
