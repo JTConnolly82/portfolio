@@ -383,8 +383,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 .page-title {
   display: flex;
   justify-content: center;
-  padding: 15px;
- 
+  margin-bottom: 5px;
 }
 .page-title h1 {
   font-size: 3vw;
@@ -655,6 +654,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding: 20px;
   display: flex;
   border-radius: 12px;
   background-color: #ffffff;
@@ -685,7 +685,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   flex-direction: column;
   justify-content: space-around;
   padding: 30px;
-  height: 280px;
+  height: 80%;
   width: 26vw;
   border-radius: 9px;
   background-color: hsl(0, 0%, 91%);
@@ -733,7 +733,8 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 
 .about-buttons {
   align-self: center;
-  margin-top: 25px;
+  margin-top: 5px;
+  justify-self: center;
 }
 
 .btns-about {
@@ -775,7 +776,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   }
   .about-desc-wrap {
     width: 88%;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
     height: 80%;
@@ -784,7 +785,8 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
     height: 100%;
   }
   .pic-border {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   
 }
