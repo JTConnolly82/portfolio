@@ -450,7 +450,9 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
     align-items: center;
 }
 
-
+.project-description {
+  color: #3a3a3a;
+}
 
 @media only screen and (max-width: 1090px) {
   .project-background-div {
@@ -491,7 +493,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   margin: 0 auto;
   margin-top: 45px;
   margin-bottom: 50px;
-  padding: 12px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -548,7 +550,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 .contact-form input {
   outline: none;  
   border: none;
-  border-bottom: 2px solid rgb(68, 68, 68);;
+  border-bottom: 2px solid rgb(128, 128, 128);
   /* height: 100px; */
   padding: 4px;
   margin-top: 10px;
@@ -563,7 +565,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 .contact-form textarea {
   outline: none;  
   border: none;
-  border: 2px solid rgb(68, 68, 68);
+  border: 2px solid rgb(128, 128, 128);
   border-radius: 5px;
   height: 80px;
   margin-top: 10px;
@@ -580,7 +582,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 #contact-btn {
   margin-top: 9px;
   padding: 11px;
-  background: linear-gradient(to right, #aaaaaa 0%, #b6b6b6 100%);
+  background: linear-gradient(to right, #e4e4e4 0%, #e2e2e2 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -599,11 +601,13 @@ font-size: 15px;
 border: none;
 cursor: pointer;
 }
+
 #contact-btn:hover {
 -webkit-box-shadow: 0 7px 7px -5px rgba(50,50,93,.25),0 5px 9px -5px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
 box-shadow: 0 6px 9px -3px rgba(50,50,93,.25),0 4px  8px -5px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
 -webkit-box-shadow: 0 4px 7px rgba(50,50,93,.1),0 2px 3px rgba(0,0,0,.08);
 box-shadow: 0 7px 9px rgba(0,0,0,);
+background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 }
 
 
