@@ -442,7 +442,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
     position: absolute;
     bottom: 0;
     height: 15%;
-    width: 100%;
+    width: 50%;
     background: #e8e8e8;
     color: #323232;
     display: flex;
@@ -451,18 +451,14 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 }
 
 .project-description {
-  color: #3a3a3a;
+  width: inherit;
 }
 
 @media only screen and (max-width: 1090px) {
   .project-background-div {
-    height: 20%;
-    width: inherit;
     padding: 10px;
     word-break: break-all;
-  }
-  .project-background-div h4 {
-    word-wrap: break-word;
+    width: 100%;
   }
 }
 
@@ -472,6 +468,10 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   }
   .slider {
     width: 91%;
+  }
+  .project-description h4 {
+    width: 100%;
+    word-wrap: break-word;
   }
 }
 
@@ -715,6 +715,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
           0 8px 16px rgba(0,0,0,0.07),
           0 16px 32px rgba(0,0,0,0.07), 
           0 32px 64px rgba(0,0,0,0.07);
+  position: relative;
 }
 
 
@@ -740,9 +741,10 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 }
 
 .about-buttons {
-  align-self: center;
-  margin-top: 5px;
-  justify-self: center;
+    align-self: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-self: center;
 }
 
 .btns-about {
@@ -777,17 +779,16 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   box-shadow: 0 7px 9px rgba(0,0,0,);
 }
 
-@media only screen and (max-width: 1033px) {
+@media only screen and (max-width: 1092px) {
   .about-main {
     flex-direction: column;
     height: 110%;
   }
   .about-desc-wrap {
     width: 88%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
     margin-top: 10px;
-    height: 80%;
   }
   #about-main-wrapper {
     height: 100%;
@@ -796,7 +797,6 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  
 }
 
 @media only screen and (max-width: 753px) {
@@ -808,22 +808,11 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 @media only screen and (max-width: 610px) {
   .about-main {
     height: 160%;
-    width: 95%;
+    width: 85%;
   }
   #about-main-wrapper {
     height: 110%;
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .about-main {
-    /* height: 190%; */
-    width: 95%;
-    padding: 5px;
-  }
-  #about-main-wrapper {
-    height: 105%;
-    padding: 10px;
-  }
-}
 

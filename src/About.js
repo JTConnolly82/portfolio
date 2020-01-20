@@ -26,15 +26,17 @@ const About = () => {
                 Hi I'm John,
               </h2>
               <h3>
-                I'm a developer with experience in frontend and backend.  I 
-                also enjoy designing UI's and growing my css skills.
-                Some of my favorite frameworks and tools 
-                are React, Node with Express JS, and Ruby on Rails.
-                
+                - I'm a developer from Pittsburgh living in Salt Lake City.  I have experience
+                writing code on the frontend and backend in JavaScript and Ruby. I also
+                enjoy designing UI's and sharpening my CSS skills.
               </h3>
               <h3>
-                Prior to software development I worked at SolarCity and Tesla
-                where I was involved with solar and energy storage projects.
+                - Prior to software development I worked at SolarCity and Tesla
+                where I was involved with home solar and energy storage projects.
+              </h3>
+              <h3>
+                - Interested in getting in touch? Want to learn more about me?  Please check out
+                my resume and github below, or send me a message from my contact page.
               </h3>
               <div className='about-buttons'>
                 <button className='btns-about' onClick={()=>{window.location.href='https://w3docs.com'}}>Resume</button>
