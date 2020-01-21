@@ -31,10 +31,6 @@ const About = () => {
                 enjoy designing UI's and sharpening my CSS skills.
               </h3>
               <h3>
-                - Prior to software development I worked at SolarCity and Tesla
-                where I was involved with home solar and energy storage projects.
-              </h3>
-              <h3>
                 - Interested in getting in touch? Want to learn more about me?  Please check out
                 my resume and github below, or send me a message from my contact page.
               </h3>

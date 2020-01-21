@@ -758,10 +758,9 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 .about-desc-wrap {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  
   height: 80%;
   width: 28vw;
   border-radius: 9px;
@@ -787,12 +786,12 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   position: relative;
 }
 
-@media only screen and (min-width: 1116px) and (max-width: 1426px) {
+/* @media only screen and (min-width: 1116px) and (max-width: 1426px) {
   .about-desc-wrap {
     flex-shrink: 0;
     overflow: hidden;
   }
-}
+} */
 
 .pic-border {
   background-color: hsla(0, 0%, 100%, 0.95);
@@ -816,9 +815,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 
 .about-buttons {
     align-self: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    justify-self: center;
+    margin-top: 12px;
 }
 
 .btns-about {
