@@ -47,9 +47,15 @@ class Projects extends React.Component {
             </div>
             <div className='project-background-div'>
               <div className='project-description'>
+                <div className='project-title-div'>
                 <h1>
                   Apartment Reviews
                 </h1>
+                <span style={{display: 'flex', alignItems: 'center', marginLeft: '10px'}}>
+                  <button className='link-to-proj'><a href="https://apt-reviews-vs.herokuapp.com/">View Project</a></button>
+                  <button className='link-to-git'><a href="https://github.com/JTConnolly82/apt-reviews">Github</a></button>
+                </span>
+                </div>
                 <h4>
                   - Users can sign in and leave reviews for individual apartment units.
                 </h4>
@@ -72,9 +78,15 @@ class Projects extends React.Component {
             </div>
               <div className='project-background-div'>
                 <div className='project-description'>
-                  <h1>
-                    SpaceX Launch Tracker
-                  </h1>
+                <div className='project-title-div'>
+                <h1>
+                  SpaceX Launch Tracker
+                </h1>
+                <span style={{display: 'flex', alignItems: 'center', marginLeft: '10px'}}>
+                  <button className='link-to-proj'><a href="https://frosty-almeida-4b3c2b.netlify.com/">View Project</a></button>
+                  <button className='link-to-git'><a href="https://github.com/JTConnolly82/spaceX-api-project">Github</a></button>
+                </span>
+                </div>
                   <h4>
                     - Search through SpaceX launch history and view stats on the roadster satellite.
                   </h4>
