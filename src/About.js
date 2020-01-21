@@ -22,16 +22,19 @@ const About = () => {
             <img id='about-pic' src="https://i.imgur.com/Y83S3eV.jpg" alt="me"/>
           </div>
             <div className='about-desc-wrap'>
-              <h2 style={{fontSize: '38px', marginBottom: '5px'}}>
+              <h2 style={{fontSize: '45px'}}>
                 Hi I'm John,
               </h2>
               <h3>
                 - I'm a developer from Pittsburgh living in Salt Lake City.  I have experience
-                writing code on the frontend and backend in JavaScript and Ruby. I also
+                writing frontend and backend code in JavaScript and Ruby. I also
                 enjoy designing UI's and sharpening my CSS skills.
               </h3>
               <h3>
-                - Interested in getting in touch? Want to learn more about me?  Please check out
+                - Prior to software I worked for Tesla on solar and energy storage projects.
+              </h3>
+              <h3>
+                - Interested in getting in touch, want to learn more?  Please check out
                 my resume and github below, or send me a message from my contact page.
               </h3>
               <div className='about-buttons'>
