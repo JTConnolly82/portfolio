@@ -27,7 +27,7 @@ const About = () => {
               </h2>
               <h3>
                 - I'm a developer living in Salt Lake City.  I have experience
-                in writing code in JavaScript (Node, React) Ruby (Rails), and some
+                writing programs in JavaScript (Node, React) Ruby (Rails), and some
                 database experience with Postgres and MongoDB.
                 I also enjoy designing UI's and sharpening my CSS skills.
               </h3>
