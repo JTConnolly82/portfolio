@@ -26,19 +26,20 @@ const About = () => {
                 Hi I'm John,
               </h2>
               <h3>
-                - I'm a developer from Pittsburgh living in Salt Lake City.  I have experience
-                writing frontend and backend code in JavaScript and Ruby. I also
-                enjoy designing UI's and sharpening my CSS skills.
+                - I'm a developer living in Salt Lake City.  I have experience
+                in writing code in JavaScript (Node, React) Ruby (Rails), and some
+                database experience with Postgres and MongoDB.
+                I also enjoy designing UI's and sharpening my CSS skills.
               </h3>
               <h3>
                 - Prior to software I worked for Tesla on solar and energy storage projects.
               </h3>
               <h3>
-                - Interested in getting in touch, want to learn more?  Please check out
+                - Interested in getting in touch?  Please check out
                 my resume and github below, or send me a message from my contact page.
               </h3>
               <div className='about-buttons'>
-                <button className='btns-about' onClick={()=>{window.location.href='https://drive.google.com/file/d/165XH6jrcKGgBNTNNT6St3Nn6JZ_Lq0GE/view?ths=true'}}>Resume</button>
+                <button className='btns-about' onClick={()=>{window.location.href='https://drive.google.com/file/d/165XH6jrcKGgBNTNNT6St3Nn6JZ_Lq0GE/view?usp=sharing'}}>Resume</button>
                 <button className='btns-about' onClick={()=>{window.location.href='https://github.com/JTConnolly82'}}>Github</button>
               </div>
             </div>
