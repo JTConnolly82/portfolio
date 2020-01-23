@@ -35,7 +35,6 @@ class Projects extends React.Component {
         </div>
         <div id='projects-main' >
         <Slider className='slider' {...settings}>
-          <div style={{width: '100%'}}>
             <a href="https://apt-reviews-vs.herokuapp.com/">
             <div style={{
               backgroundImage: "url('https://i.imgur.com/xBx6tHb.png')",
@@ -51,7 +50,7 @@ class Projects extends React.Component {
                 <h1>
                   Apartment Reviews
                 </h1>
-                <span style={{display: 'flex', alignItems: 'center', marginLeft: '10px'}}>
+                <span className='project-buttons'>
                   <button className='link-to-proj'><a href="https://apt-reviews-vs.herokuapp.com/">View Project</a></button>
                   <button className='link-to-git'><a href="https://github.com/JTConnolly82/apt-reviews">Github</a></button>
                 </span>
@@ -65,8 +64,6 @@ class Projects extends React.Component {
               </div>
               </div>
               </a>
-          </div>
-          <div>
             <a href="https://frosty-almeida-4b3c2b.netlify.com/">
             <div style={{
                 backgroundImage: "url('https://i.imgur.com/xPAwOcn.png')",
@@ -82,7 +79,7 @@ class Projects extends React.Component {
                 <h1>
                   SpaceX Launch Tracker
                 </h1>
-                <span style={{display: 'flex', alignItems: 'center', marginLeft: '10px'}}>
+                <span className='project-buttons'>
                   <button className='link-to-proj'><a href="https://frosty-almeida-4b3c2b.netlify.com/">View Project</a></button>
                   <button className='link-to-git'><a href="https://github.com/JTConnolly82/spaceX-api-project">Github</a></button>
                 </span>
@@ -96,7 +93,6 @@ class Projects extends React.Component {
                 </div>
               </div>
             </a>
-          </div>
         </Slider>
         </div>
     </div>

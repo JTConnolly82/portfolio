@@ -442,7 +442,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
 .project-background-div {
     position: absolute;
     bottom: 0;
-    height: 15%;
+    height: 80px;
     width: 50%;
     background: #e8e8e8;
     color: #323232;
@@ -451,6 +451,8 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
     align-items: center;
     cursor: default;
 }
+
+
 
 .link-to-proj {
   padding: 11px;
@@ -521,11 +523,32 @@ cursor: pointer;
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1090px) {
+.project-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1070px) {
   .project-background-div {
-    padding: 10px;
-    word-break: break-all;
-    width: 100%;
+    width: 41%;
+  }
+  .project-title-div {
+    flex-direction: column;
+    position: relative;
+    padding: 1px;
+  }
+  .project-background-div h4 {
+    display: none;
+  }
+  .project-background-div h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 677px) {
+  .project-background-div h1 {
+    font-size: 25px;
   }
 }
 
@@ -852,7 +875,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   box-shadow: 0 7px 9px rgba(0,0,0,);
 }
 
-@media (max-width: 1262px) {
+@media (max-width: 126px) {
   .about-main {
     flex-direction: column;
     height: 110%;
