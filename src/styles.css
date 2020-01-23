@@ -875,7 +875,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   box-shadow: 0 7px 9px rgba(0,0,0,);
 }
 
-@media (max-width: 126px) {
+@media (max-width: 1334px) {
   .about-main {
     flex-direction: column;
     height: 110%;
