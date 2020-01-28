@@ -35,7 +35,7 @@ const About = () => {
                 - Prior to software I worked for Tesla on solar and energy storage projects.
               </h3>
               <h3>
-                - Interested in getting in touch?  Please check out
+                - Interested in getting in touch?  View
                 my resume and github below, or send me a message from my contact page.
               </h3>
               <div className='about-buttons'>
