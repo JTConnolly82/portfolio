@@ -822,7 +822,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   }
 }
 
-@media (min-width: 1320px) and (max-width: 1570px) {
+@media (max-width: 1570px) {
   .about-desc-wrap h3 {
     font-size: 1em;
   }
