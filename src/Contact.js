@@ -27,13 +27,13 @@ const Contact = () => {
         <form action="/contact" className='contact-form' name="contact-form" method="post" >
           <input type="hidden" name="form-name" value='contact-form' />
             <p className='input-label'>
-              <input type="text" name="name" placeholder='name' />   
+              <input type="text" name="name" placeholder='name' required/>   
             </p>
             <p className='input-label'>
-              <input type="email" name="email" placeholder='example@email.com'/>
+              <input type="email" name="email" placeholder='example@email.com' required/>
             </p>
             <p className='input-label'>
-              <textarea name="message" id='form-textarea' placeholder='message' />
+              <textarea name="message" id='form-textarea' placeholder='message' required/>
             </p>
             <p className='input-label'>
               <button type="submit" id='contact-btn'>Send</button>
