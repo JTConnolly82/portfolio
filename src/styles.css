@@ -811,6 +811,23 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   position: relative;
 }
 
+.about-desc-wrap h3 {
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+@media (min-width: 1570px) {  
+  .about-desc-wrap h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1320px) and (max-width: 1570px) {
+  .about-desc-wrap h3 {
+    font-size: 1em;
+  }
+}
+
 /* @media only screen and (min-width: 1216px) and (max-width: 1426px) {
   .about-desc-wrap {
     flex-shrink: 0;

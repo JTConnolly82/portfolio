@@ -22,7 +22,7 @@ const About = () => {
             <img id='about-pic' src="https://i.imgur.com/Y83S3eV.jpg" alt="me"/>
           </div>
             <div className='about-desc-wrap'>
-              <h2 style={{fontSize: '45px'}}>
+              <h2 style={{fontSize: '40px'}}>
                 Hi I'm John,
               </h2>
               <h3>
