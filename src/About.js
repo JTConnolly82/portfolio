@@ -27,12 +27,12 @@ const About = () => {
               </h2>
               <h3>
                 - I'm a developer living in Salt Lake City.  I have experience
-                writing programs in JavaScript (Node, React) Ruby (Rails), and some
-                database experience with Postgres and MongoDB.
+                writing programs in JavaScript (Node, React) Ruby (Rails), and have
+                database experience with MongoDB and Postgres.
                 I also enjoy designing UI's and sharpening my CSS skills.
               </h3>
               <h3>
-                - Prior to software I worked for Tesla on solar and energy storage projects.
+                - Before programming full time I worked for Tesla's energy division on solar and energy storage projects.
               </h3>
               <h3>
                 - Interested in getting in touch?  View
