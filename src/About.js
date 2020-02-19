@@ -39,7 +39,7 @@ const About = () => {
                 my resume and github below, or send me a message from my contact page.
               </h3>
               <div className='about-buttons'>
-                <button className='btns-about' onClick={()=>{window.location.href='https://drive.google.com/file/d/1YXfhMzAZzBmm9a2OSQesqNMiM35aJvlH/view?usp=sharing'}}>Resume</button>
+                <button className='btns-about' onClick={()=>{window.location.href='https://docs.google.com/document/d/1C3DjXe4tBDgbOJq6a1ecBt7QMyfU1J4uMTqfo_tUkM4/edit?usp=sharing'}}>Resume</button>
                 <button className='btns-about' onClick={()=>{window.location.href='https://github.com/JTConnolly82'}}>Github</button>
               </div>
             </div>
