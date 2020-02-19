@@ -811,6 +811,11 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   position: relative;
 }
 
+#about-text-link {
+  color: inherit;
+  border-bottom: 2px solid rgb(109, 109, 109)
+}
+
 .about-desc-wrap h3 {
   line-height: 1.5em;
   font-size: 1em;

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './styles.css';
 import {Link} from 'react-router-dom';
-import MobileLayout from './MobileLayout';
+// import MobileLayout from './MobileLayout';
 
 
 
@@ -35,8 +35,8 @@ const About = () => {
                 - Before programming full time I worked for Tesla's energy division on solar and energy storage projects.
               </h3>
               <h3>
-                - Interested in getting in touch?  View
-                my resume and github below, or send me a message from my contact page.
+                - Interested in learning more?  View
+                my resume and github below, or send me a message from my <Link id='about-text-link' to='/contact'>contact page</Link>.
               </h3>
               <div className='about-buttons'>
                 <button className='btns-about' onClick={()=>{window.location.href='https://docs.google.com/document/d/1C3DjXe4tBDgbOJq6a1ecBt7QMyfU1J4uMTqfo_tUkM4/edit?usp=sharing'}}>Resume</button>
