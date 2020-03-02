@@ -80,7 +80,7 @@ class Projects extends React.Component {
                   SpaceX Launch Tracker
                 </h1>
                 <span className='project-buttons'>
-                  <button className='link-to-proj'><a href="https://frosty-almeida-4b3c2b.netlify.com/">View Project</a></button>
+                  <button className='link-to-proj'><a href="https://spacextracker.netlify.com">View Project</a></button>
                   <button className='link-to-git'><a href="https://github.com/JTConnolly82/spaceX-api-project">Github</a></button>
                 </span>
                 </div>
