@@ -41,9 +41,9 @@ const Contact = () => {
         </form>
         </div>
         <div className='social-icons'>
-          <a href="https://twitter.com/HIIMJ0HN"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-512.png" alt="twitter"/></a>
-          <a href="https://www.linkedin.com/in/jtc/"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/linkedin-512.png" alt="linkedin"/></a>
-          <a href="https://github.com/JTConnolly82"><img className='icon' src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github"/></a>
+          <a target='_blank' rel="noreferrer" href="https://twitter.com/HIIMJ0HN"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-512.png" alt="twitter"/></a>
+          <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/jtc/"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/linkedin-512.png" alt="linkedin"/></a>
+          <a target='_blank' rel="noreferrer" href="https://github.com/JTConnolly82"><img className='icon' src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github"/></a>
         </div>
       </div>
     </div>

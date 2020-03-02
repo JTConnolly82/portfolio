@@ -35,7 +35,7 @@ class Projects extends React.Component {
         </div>
         <div id='projects-main' >
         <Slider className='slider' {...settings}>
-            <a href="https://apt-reviews-vs.herokuapp.com/">
+            <a target='_blank' rel="noreferrer" href="https://apt-reviews-vs.herokuapp.com/">
             <div style={{
               backgroundImage: "url('https://i.imgur.com/xBx6tHb.png')",
               height: '58vh',
@@ -64,7 +64,7 @@ class Projects extends React.Component {
               </div>
               </div>
               </a>
-            <a href="https://spacextracker.netlify.com/">
+            <a target='_blank' rel="noreferrer" href="https://spacextracker.netlify.com/">
             <div style={{
                 backgroundImage: "url('https://i.imgur.com/xPAwOcn.png')",
                 height: '54vh',
