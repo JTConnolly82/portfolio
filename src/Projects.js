@@ -37,7 +37,7 @@ class Projects extends React.Component {
         <Slider className='slider' {...settings}>
             <a target='_blank' rel="noreferrer" href="https://apt-reviews-vs.herokuapp.com/">
             <div style={{
-              backgroundImage: "url('https://imgur.com/a/KSmxNcJ.png')",
+              backgroundImage: "url('https://i.imgur.com/STkDPKP.png')",
               height: '58vh',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
