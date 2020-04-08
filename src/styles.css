@@ -45,14 +45,9 @@ a button:hover {
     width: 95vw;
   }
   #projects-outer-wrap {
-    height: 91vh;
+    /* height: 91vh; */
   }
 }
-
-@media only screen and (max-width: 420px) {
-  
-}
-
 
 /* --------------------------------- */
  /* nav styles below */
@@ -371,6 +366,9 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   #home-main h1 {
     font-size: 74px;
   }
+  .top-home {
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 526px) {
@@ -568,7 +566,6 @@ cursor: pointer;
 @media only screen and (max-width: 420px) {
   #projects-main {
     margin-bottom: 40px;
-   
   } 
    
   #projects-main-div {
@@ -883,8 +880,8 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   cursor: pointer;
   color: #ffffff;
   z-index: 2;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: center;
 }
   
@@ -931,14 +928,18 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   #about-main-wrapper {
     height: 110%;
   }
+  #about-pic {
+    height: 230px;
+    width: 147px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   
   .btns-about {
-    margin: 0 auto;
-    margin-left: 2px;
-    margin-right: 2px;
+  
+    margin-left: 6px;
+    margin-right: 6px;
   }
 }
 

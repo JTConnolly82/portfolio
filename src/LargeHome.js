@@ -12,7 +12,7 @@ const LargeHome = () => {
         <div className='top-home'>
           <h1>John Connolly</h1>
           <div className='large-home-statement'>
-            <h3>Developer based in Salt Lake City, Utah</h3>
+            <h3>Developer based in Salt Lake City</h3>
           </div>
         </div>
         <div className='home-card'>
