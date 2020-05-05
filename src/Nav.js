@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import './styles.css'
 
 
 
-const Nav = () => {
+const Nav = (props) => {
 
   return (
     
@@ -38,4 +38,4 @@ const Nav = () => {
   )
 }
 
-export default Nav;
+export default withRouter(Nav);

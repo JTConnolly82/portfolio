@@ -60,7 +60,7 @@ a button:hover {
   font-weight: bolder;
   word-wrap: break-word;
   width: 400px;
-
+  height: 58px;
 }
 
 
@@ -314,10 +314,10 @@ box-shadow: 0 1px 1px rgba(101, 101, 101,0.19),
 
 .the-buttons-home {
   border-radius: 8px;
-  font-size: 24px;
+  font-size: 26px;
   height: 70px;
-  width: 120px;
-  background: linear-gradient(221deg, rgba(25,186,211,1) 0%, rgba(43,191,204,1) 50%, rgb(85, 200, 202) 100%); 
+  width: 170px;
+  background: linear-gradient(221deg, rgb(28, 202, 228) 0%, rgb(47, 207, 221) 50%, rgb(91, 214, 216) 100%); 
   border: none;
   -webkit-box-shadow: 0 1px 1px rgba(101, 101, 101,0.25), 
                       0 2px 2px rgba(101, 101, 101,0.22), 
@@ -371,7 +371,7 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   }
 }
 
-@media only screen and (max-width: 526px) {
+@media only screen and (max-width: 720px) {
   .home-buttons {
     flex-direction: column;
   }

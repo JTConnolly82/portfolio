@@ -8,8 +8,6 @@ import Contact from './Contact';
 
 const App = () => {
 
-  
-
   const mainAppLayout = {
     display: 'grid',
     gridTemplateRows: 'auto auto',
