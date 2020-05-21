@@ -28,7 +28,7 @@ class Projects extends React.Component {
     <div className='home-container' id='projects-outer-wrap'>
       <div className='large-main-div' id='projects-main-div'>
         <div className='home-link-div'>
-          <Link to='/'><img src="https://img.icons8.com/small/31/000000/home.png" /></Link>
+        <Link to='/'><img style={{width: '30px', height: '30px'}} src={process.env.PUBLIC_URL + '/home.png'} /></Link>
         </div>
         <div className='page-title'>
           <h1>Projects</h1>

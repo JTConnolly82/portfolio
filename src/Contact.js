@@ -12,9 +12,8 @@ const Contact = () => {
     <div className='large-main-div' id='contact-outer-wrapper'>
       <div className='large-main-inner' id='contact-main' >
         <div className='home-link-div'>
-          <Link to='/'><img src="https://img.icons8.com/small/31/000000/home.png" /></Link>
+        <Link to='/'><img style={{width: '30px', height: '30px'}} src={process.env.PUBLIC_URL + '/home.png'} /></Link>
         </div>
-
         <div className='page-title'>
           <h1>Contact</h1>
         </div>
