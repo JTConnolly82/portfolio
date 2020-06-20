@@ -24,6 +24,8 @@ class Projects extends React.Component {
     slidesToScroll: 1,
   };
 
+  let bg = process.env.PUBLIC_URL + '/ascenda.png';
+
   return (
     <div className='home-container' id='projects-outer-wrap'>
       <div className='large-main-div' id='projects-main-div'>
@@ -35,11 +37,41 @@ class Projects extends React.Component {
         </div>
         <div id='projects-main' >
         <Slider className='slider' {...settings}>
+        <a target='_blank' rel="noreferrer" >
+            <div style={{
+              backgroundImage: "url("+bg+")",
+              height: '58vh',
+              backgroundPosition: '10% 10%',
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'cover'
+            }}>
+            </div>
+            <div className='project-background-div'>
+              <div className='project-description'>
+                <div className='project-title-div'>
+                <h1>
+                  Ascenda
+                </h1>
+                <span className='project-buttons'>
+                  <button className='link-to-proj'><a href="">Coming Soon</a></button>
+                  {/* <button className='link-to-git'><a href="https://github.com/JTConnolly82/apt-reviews">Github</a></button> */}
+                </span>
+                </div>
+                <h4>
+                  -  Project for women's entrepreneurship group in Utah. Bringing
+                  aspects of their community online.
+                </h4>
+                <h4>
+                  -  Built with React, Firebase.
+                </h4>
+              </div>
+              </div>
+              </a>
             <a target='_blank' rel="noreferrer" href="https://apt-reviews-vs.herokuapp.com/">
             <div style={{
               backgroundImage: "url('https://i.imgur.com/STkDPKP.png')",
               height: '58vh',
-              backgroundPosition: 'center',
+              backgroundPosition: '10% 10%',
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover'
             }}>

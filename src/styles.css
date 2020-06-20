@@ -5,6 +5,8 @@
 * { 
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: subpixel-antialiased;
   text-decoration: none;
   -webkit-font-smoothing: subpixel-antialiased;
 }
@@ -447,10 +449,9 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
     color: #323232;
     display: flex;
     padding: 20px;
-    align-items: center;
+    align-items: flex-start;
     cursor: default;
 }
-
 
 
 .link-to-proj {
@@ -531,17 +532,23 @@ cursor: pointer;
 @media only screen and (max-width: 1070px) {
   .project-background-div {
     width: 41%;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   .project-title-div {
     flex-direction: column;
     position: relative;
     padding: 1px;
+    align-items: flex-start;
   }
   .project-background-div h4 {
     display: none;
   }
   .project-background-div h1 {
     font-size: 30px;
+  }
+  .project-buttons {
+    margin-left: 0px;
   }
 }
 
@@ -738,10 +745,43 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   margin-bottom: 35px;
 }
 
+.social-icons-about {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .social-icons-about {
+    margin-top: 24px;
+  }
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 280px;
+}
+@media (max-width: 1350px) {
+  .btns-container {
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    /* width: 340px; */
+  }
+}
+
 .icon {
   cursor: pointer;
   width: 40px;
   height: 40px;
+}
+.icon-about {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
 }
 
 .about-main {
@@ -814,7 +854,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   border-bottom: 2px solid rgb(109, 109, 109)
 }
 
-.about-desc-wrap h3 {
+/* .about-desc-wrap h3 {
   line-height: 1.5em;
   font-size: 1em;
 }
@@ -829,7 +869,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   .about-desc-wrap h3 {
     font-size: 1em;
   }
-}
+} */
 
 /* @media only screen and (min-width: 1216px) and (max-width: 1426px) {
   .about-desc-wrap {
@@ -853,22 +893,51 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 }
 
 #about-pic {
-  width: 200px;
-  height: 310px;
-  opacity: .85;
+  height: 242px;
+    width: 150px;
+  border-radius: 10px;
+  box-shadow: 16px 16px 0 0px #cecdcd;
+  margin-bottom: 38px;
 }
 
 .about-buttons {
     align-self: center;
-    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-button-one {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1350px) {
+  .about-buttons {
+    height: 390px;
+  }
+
+  #about-button-one {
+    margin-bottom: 0px;
+  }
+}
+
+.about-text {
+  font-size: 42px;
+  font-weight: normal;
+}
+@media (max-width: 800px) {
+  .about-text {
+    font-size: 35px;
+  }
 }
 
 .btns-about {
   border-radius: 8px;
-  font-size: 24px;
-  height: 60px;
+  font-size: 20px;
+  height: 40px;
   width: 120px;
-  background: #33c1ca;
+  background: linear-gradient(to right, #c2c2c2 0%, #dadada 100%);
   border: none;
   -webkit-box-shadow: 0 1px 1px rgba(101, 101, 101,0.25), 
                       0 2px 2px rgba(101, 101, 101,0.22), 
@@ -879,10 +948,10 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
             0 4px 4px rgba(101, 101, 101,0.19), 
             0 8px 8px rgba(101, 101, 101,0.16);
   cursor: pointer;
-  color: #ffffff;
+  color: black;
   z-index: 2;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   text-align: center;
 }
   
@@ -897,7 +966,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 
 @media (max-width: 1334px) {
   .about-main {
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: 110%;
   }
   .about-desc-wrap {
@@ -905,9 +974,6 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
     padding: 15px;
     margin-bottom: 15px;
     margin-top: 15px;
-  }
-  #about-main-wrapper {
-    height: 100%;
   }
   .pic-border {
     margin-bottom: 10px;
@@ -929,26 +995,12 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   #about-main-wrapper {
     height: 110%;
   }
-  #about-pic {
-    height: 230px;
-    width: 147px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  
-  .btns-about {
-  
-    margin-left: 6px;
-    margin-right: 6px;
-  }
 }
 
 @media only screen and (max-width: 355px) {
   
   .btns-about {
     margin-bottom: 4px;
-    margin-left: 25%;
   }
   .about-buttons {
     width: 100%;
