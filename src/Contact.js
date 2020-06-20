@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
         <div id='contact-statement'>
         <h3>
-          You can reach me at JTConnolly82@gmail.com or use the form below.
+          Get in touch with me at JTConnolly82@gmail.com or use the form below.
         </h3>
       </div>
         <div className='contact-wrap'>
