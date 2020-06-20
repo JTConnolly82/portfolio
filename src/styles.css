@@ -922,6 +922,8 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 }
 
 .about-text {
+  align-self: center;
+  justify-self: center;
   font-size: 39px;
   font-weight: normal;
 }
@@ -930,7 +932,22 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
     font-size: 32px;
   }
 }
+@media (min-width: 1467px) {
+  .about-text {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1522px) {
+  .about-text {
+    font-size: 42px;
+  }
+}
 
+@media (min-width: 1820px) {
+  .about-text {
+    font-size: 51px;
+  }
+}
 
 .btns-about {
   border-radius: 8px;
