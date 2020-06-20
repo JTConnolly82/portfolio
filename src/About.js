@@ -86,7 +86,7 @@ const About = () => {
             <div className="about-desc-wrap">
               {/* <h2 style={{ fontSize: "40px" }}>Hi I'm John,</h2> */}
               <h1 className='about-text'>
-                Currently living in Salt Lake City, Utah. 🏡 Experienced in software
+                Currently living in Salt Lake City, Utah. Experienced in software
                 development 👨‍💻 and project management.  Avid skier ⛷ and biker. 
               </h1>
             </div>
