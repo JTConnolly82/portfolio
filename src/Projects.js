@@ -58,8 +58,7 @@ class Projects extends React.Component {
                 </span>
                 </div>
                 <h4>
-                  -  Project for women's entrepreneurship group in Utah. Bringing
-                  aspects of their community online.
+                  -  Building MVP for Ascenda's online education and mentorship programs.
                 </h4>
                 <h4>
                   -  Built with React, Firebase.
