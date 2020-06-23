@@ -19,9 +19,9 @@ const Contact = () => {
         </div>
         <div id='contact-statement'>
         <h3>
-          Get in touch with me at JTConnolly82@gmail.com or use the form below.
+          You can send me an email at JTConnolly82@gmail.com or use the form below.
         </h3>
-      </div>
+      </div> 
         <div className='contact-wrap'>
         <form action="/contact" className='contact-form' name="contact-form" method="post" >
           <input type="hidden" name="form-name" value='contact-form' />
