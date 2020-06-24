@@ -32,7 +32,7 @@ const Contact = () => {
               <input type="email" name="email" placeholder='example@email.com' required/>
             </p>
             <p className='input-label'>
-              <textarea name="message" id='form-textarea' placeholder='your message' required/>
+              <textarea name="message" placeholder='your message' required/>
             </p>
             <p className='input-label'>
               <button type="submit" id='contact-btn'>Send</button>

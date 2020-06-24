@@ -259,7 +259,7 @@ box-shadow: 0 1px 1px rgba(101, 101, 101,0.19),
   width: 100%;
 }
 #home-main h1 {
-  font-size: 6vw;
+  font-size: 7vw;
   line-height: auto;
   font-weight: lighter;
   color: #ffffff;
@@ -364,6 +364,8 @@ box-shadow: 0 7px 9px rgba(0,0,0,);
   flex-direction: column;
   justify-content: center;
 }
+
+
 
 @media only screen and (max-width: 1303px) {
   #home-main h1 {
@@ -627,6 +629,9 @@ cursor: pointer;
   .contact-wrap {
     width: 85%;
   }
+  #contact-statement {
+    padding-left: 24px;
+  }
 }
 
 
@@ -635,6 +640,12 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#contact-statement h3 {
+  font-weight: normal;
 }
 
 .contact-form {
@@ -753,7 +764,8 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
 
 @media only screen and (max-width: 539px) {
   #contact-outer-wrapper {
-    height: 90vh;
+    padding-bottom: 22px;
+    height: 100%;
   }
   .social-icons {
     margin-top: 0px;
@@ -761,9 +773,7 @@ background: linear-gradient(to right, #cbcbcb 0%, #cecece 100%);
   .contact-form {
     align-items: center;
   }
-  #contact-statement {
-    padding: 5px;
-  }
+  
 }
 
 

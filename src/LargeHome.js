@@ -10,9 +10,11 @@ const LargeHome = () => {
     <div className='large-main-div-home'>
       <div id='home-main'>
         <div className='top-home'>
-          <h1>John Connolly</h1>
-          <div className='large-home-statement'>
-            <h3>Developer based in Salt Lake City</h3>
+          <div style={{borderRadius: '10px', padding: '20px'}}>
+            <h1>John Connolly</h1>
+            <div className='large-home-statement'>
+              <h3>Developer based in Salt Lake City</h3>
+            </div>
           </div>
         </div>
         <div className='home-card'>
