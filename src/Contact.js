@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
         <div id='contact-statement'>
         <h3>
-          You can send me an email at JTConnolly82@gmail.com or use the form below.
+          You can reach me by email <a id='mail-link' href="mailto:jtconnolly82@gmail.com">here</a> or use the form below.
         </h3>
       </div> 
         <div className='contact-wrap'>
@@ -32,7 +32,7 @@ const Contact = () => {
               <input type="email" name="email" placeholder='example@email.com' required/>
             </p>
             <p className='input-label'>
-              <textarea name="message" placeholder='your message' required/>
+              <textarea name="message" placeholder='message' required/>
             </p>
             <p className='input-label'>
               <button type="submit" id='contact-btn'>Send</button>
@@ -40,7 +40,7 @@ const Contact = () => {
         </form>
         </div>
         <div className='social-icons'>
-          <a target='_blank' rel="noreferrer" href="https://twitter.com/HIIMJ0HN"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-512.png" alt="twitter"/></a>
+          {/* <a target='_blank' rel="noreferrer" href="https://twitter.com/HIIMJ0HN"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-512.png" alt="twitter"/></a> */}
           <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/jtc/"><img className='icon' src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/linkedin-512.png" alt="linkedin"/></a>
           <a target='_blank' rel="noreferrer" href="https://github.com/JTConnolly82"><img className='icon' src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github"/></a>
         </div>

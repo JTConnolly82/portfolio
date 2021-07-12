@@ -23,9 +23,9 @@ const About = () => {
             {/* <div className='pic-border'> */}
             <div className="about-buttons">
             {/* <div className='pic-border'> */}
-            <img id='about-pic' src={process.env.PUBLIC_URL + '/me.jpg'} alt="me"/>
+            <img id='about-pic' src={process.env.PUBLIC_URL + '/me-square.jpg'} alt="me"/>
           {/* </div> */}
-              <div className="btns-container">
+              {/* <div className="btns-container">
                 <button
                   className="btns-about"
                   id="about-button-one"
@@ -44,9 +44,9 @@ const About = () => {
                 >
                   Github
                 </button>
-              </div>
+              </div> */}
               <div className="social-icons-about">
-                <a
+                {/* <a
                   target="_blank"
                   rel="noreferrer"
                   href="https://twitter.com/HIIMJ0HN"
@@ -56,7 +56,7 @@ const About = () => {
                     src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-512.png"
                     alt="twitter"
                   />
-                </a>
+                </a> */}
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -84,11 +84,12 @@ const About = () => {
             {/* <img id='about-pic' src={process.env.PUBLIC_URL + '/me.jpg'} alt="me"/> */}
             {/* </div> */}
             <div className="about-desc-wrap">
-              {/* <h2 style={{ fontSize: "40px" }}>Hi I'm John,</h2> */}
-              <h1 className='about-text'>
-                Currently living in Salt Lake City, Utah 🏡. Experienced in software
-                development 👨‍💻 and project management.  Avid skier ⛷ and biker. 
-              </h1>
+              <h3 className='about-text'>
+                <span style={{fontSize: '1.2em'}}>Hi, I'm John Connolly-</span> A software developer based in Salt Lake City, Utah 🏕.  
+                Currently consulting as a Ruby on Rails developer 👨‍💻 for an equity crowdfunding platform, and enjoy working
+                in all parts of the stack.
+                Avid skier ⛷ and mountain biker.
+              </h3>
             </div>
           </div>
         </div>
