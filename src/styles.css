@@ -308,7 +308,6 @@ box-shadow: 0 1px 1px rgba(101, 101, 101,0.19),
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-self: center;
   width: 50%;
 }
 
@@ -332,6 +331,7 @@ box-shadow: 0 1px 1px rgba(101, 101, 101,0.19),
   z-index: 2;
   margin-left: 16px;
   margin-right: 16px;
+  margin-block: 8px;
   text-align: center;
   display: flex;
   align-items: center;
