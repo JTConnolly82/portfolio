@@ -86,7 +86,7 @@ const About = () => {
             <div className="about-desc-wrap">
               <h3 className='about-text'>
                 <span style={{fontSize: '1.2em'}}>Hi, I'm John Connolly-</span> A software developer based in Salt Lake City, Utah 🏕.  
-                Currently consulting as a Ruby on Rails developer 👨‍💻 for an equity crowdfunding platform, and enjoy working
+                Currently consulting as a Ruby on Rails developer 👨‍💻 for a client in financial services, and enjoy working
                 in all parts of the stack.
                 Avid skier ⛷ and mountain biker.
               </h3>
